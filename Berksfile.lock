@@ -1,0 +1,28 @@
+DEPENDENCIES
+  mongo1
+    git: git@github.com:mawosemo/Mongo-Chef.git
+    revision: 17a387d74063307a5e6d189349ba510891a1fa00
+  node
+    git: git@github.com:mawosemo/Node-Chef.git
+    revision: d670133188aa3fded2b3071d0fff014a2ebbe11a
+
+GRAPH
+  apt (7.2.0)
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongo1 (0.1.0)
+  node (0.1.0)
+    apt (>= 0.0.0)
+    nodejs (~> 6.0.0)
+  nodejs (6.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 5.0)
+  seven_zip (3.1.1)
+    windows (>= 0.0.0)
+  windows (6.0.0)
